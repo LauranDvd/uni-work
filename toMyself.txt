@@ -1,0 +1,15 @@
+-----maths-----
+algebra:  P3 OKOKOK
+
+-----fp-----
+from A7 onwards
+
+-----asc?-----
+
+
+Also:
+-- projects: nasm, fp, ce imi vine in minte (sa invat inainte)
+-- best of competitive programming
+-- link site glob
+
+-- idea of project: sth with gps and graphs
