@@ -1,0 +1,27 @@
+﻿@model IEnumerable<asp_net_lab.Models.Domain.Article>
+
+@foreach (var item in Model)
+{
+	<article class="news-article">
+		<div class="news-article-title">
+			@Html.DisplayFor(modelItem => item.Title)
+		</div>
+		<div class="news-article-author">
+			@Html.DisplayFor(modelItem => item.Author.Name)
+		</div>
+		<div class="news-article-text">
+			@Html.DisplayFor(modelItem => item.Text)
+		</div>
+		<div class="news-article-footer">
+			<span class="news-article-date">@Html.DisplayFor(modelItem => item.Date)</span> |
+			<span class="news-article-category">@Html.DisplayFor(modelItem => item.Category.Name)</span>
+		</div>
+		@if (User.IsInRole("admin"))
+		{
+			<div>
+				<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+				<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+			</div>
+		}
+	</article>
+}

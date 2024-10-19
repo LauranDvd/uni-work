@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|d:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\views\\login\\invalidname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\views\\login\\invalidname.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "test_web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "test_web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T06:11:28.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvalidName.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Views\\Login\\InvalidName.cshtml",
+              "RelativeDocumentMoniker": "test_web\\Views\\Login\\InvalidName.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Views\\Login\\InvalidName.cshtml",
+              "RelativeToolTip": "test_web\\Views\\Login\\InvalidName.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:26:16.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "test_web\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "test_web\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T19:31:29.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "test_web\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "test_web\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAASwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:29:52.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Utilities.cs",
+              "RelativeDocumentMoniker": "test_web\\Utilities.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Utilities.cs",
+              "RelativeToolTip": "test_web\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:56:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Views\\Main\\Index.cshtml",
+              "RelativeDocumentMoniker": "test_web\\Views\\Main\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Views\\Main\\Index.cshtml",
+              "RelativeToolTip": "test_web\\Views\\Main\\Index.cshtml",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAnwKkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:49:23.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\Course.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Models\\Course.cs",
+              "RelativeToolTip": "test_web\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:24:38.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "test_web\\Controllers\\MainController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Controllers\\MainController.cs",
+              "RelativeToolTip": "test_web\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:48:42.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\Student.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Models\\Student.cs",
+              "RelativeToolTip": "test_web\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:42:19.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "test_web\\Data\\MyDbContext.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "test_web\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:40:55.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Program.cs",
+              "RelativeDocumentMoniker": "test_web\\Program.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Program.cs",
+              "RelativeToolTip": "test_web\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAApwBgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:36:35.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\Person.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\Models\\Person.cs",
+              "RelativeToolTip": "test_web\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:23:52.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\appsettings.json",
+              "RelativeDocumentMoniker": "test_web\\appsettings.json",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_courses\\test_web\\appsettings.json",
+              "RelativeToolTip": "test_web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T19:36:02.565Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

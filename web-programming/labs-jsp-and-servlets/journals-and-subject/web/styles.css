@@ -1,0 +1,22 @@
+body {
+    font-size: 120%;
+    text-align: center;
+    background: azure;
+}
+
+button, input[type=submit] {
+    padding: 0.5em;
+    border-radius: 2em;
+    border: 0.3em solid red;
+    cursor: pointer;
+}
+
+input {
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+table {
+    font-weight: bold;
+    padding: 0.3em;
+}

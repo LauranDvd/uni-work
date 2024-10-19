@@ -1,0 +1,27 @@
+// where the query gets executed
+
+private void Form1_Load(object sender, EventArgs e)
+{
+    ReadConfiguration();
+
+    string connectionString = @"Data Source=";
+    connectionString += server + @";";
+    connectionString += @"Initial Catalog=";
+    connectionString += database;
+    connectionString += @";Integrated Security=True;";
+
+    connection = new SqlConnection(connectionString);
+    localAgenciesDataAdapter = new SqlDataAdapter("SELECT * FROM " + childTable, connection);
+    regionalAgenciesDataAdapter = new SqlDataAdapter("SELECT * FROM " + parentTable, connection);
+
+    dataSet = new DataSet();
+    localAgenciesDataAdapter.Fill(dataSet, childTable);
+    regionalAgenciesDataAdapter.Fill(dataSet, parentTable);
+
+
+    BindingSource regionalBindingSource = new BindingSource(dataSet, parentTable);
+    dataGridView1.DataSource = regionalBindingSource;
+
+    BindingSource localBindingSource = new BindingSource(dataSet, childTable);
+    dataGridView2.DataSource = localBindingSource;
+}

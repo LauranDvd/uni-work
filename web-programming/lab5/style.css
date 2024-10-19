@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-size: 250%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: lemonchiffon;
+}
+
+header {
+    font-weight: bold;
+    font-size: 300%;
+    margin-bottom: 10%;
+}
+
+#search-input, #countries-select {
+    font-size: 50%;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+button {
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    background: gray;
+}

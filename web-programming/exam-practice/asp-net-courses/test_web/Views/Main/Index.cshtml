@@ -1,0 +1,190 @@
+﻿@{
+	Layout = null;
+}
+
+@model string
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>FilterStudents</title>
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script>
+		$(document).ready(function () {
+			function getAllCoursesAndPopulateCombobox() {
+				$.get("/Main/GetCoursesComboboxOptions", function (data) {
+					$("#course-selector").empty();
+					$("#course-selector").append('<option value="">Select course</option>');
+					$("#course-selector").append(data);
+				});
+			}
+
+			function getMyCoursesAndPopulateCombobox() {
+				$.get("/Main/GetMyCoursesComboboxOptions", function (data) {
+					$("#add-grade-course-selector").empty();
+					$("#add-grade-course-selector").append('<option value="">Select course</option>');
+					$("#add-grade-course-selector").append(data);
+				});
+			}
+
+			function getAllStudentsAndPopulateCombobox() {
+				$.get("/Main/GetStudentsComboboxOptions", function (data) {
+					$("#student-selector").empty();
+					$("#student-selector").append('<option value="">Select student</option>');
+					$("#student-selector").append(data);
+
+					$("#add-grade-student-selector").empty();
+					$("#add-grade-student-selector").append('<option value="">Select student</option>');
+					$("#add-grade-student-selector").append(data);
+				});
+			}
+
+			getAllCoursesAndPopulateCombobox();
+			getMyCoursesAndPopulateCombobox();
+			getAllStudentsAndPopulateCombobox();
+
+			$("#all-courses-button").click(function () {
+				$.get("/Main/GetCourses",
+					function (data, status) {
+						$("#maindiv").html(data);
+					});
+			});
+
+			$("#all-students-button").click(function () {
+				$.get("/Main/GetStudents",
+					function (data, status) {
+						$("#all-students-div").html(data);
+					});
+			});
+
+			$("#get-course-participants-button").click(function () {
+				var courseId = $("#course-selector").val();
+				console.log("courseid=" + courseId);
+
+				if (courseId === "") {
+					$("#course-participants-div").html("Please select a course");
+					return;
+				}
+
+				$.get("/Main/GetCourseParticipants", { courseId: courseId },
+					function (data, status) {
+						$("#course-participants-div").html(data);
+					});
+			});
+
+			$("#get-student-courses-buttons").click(function () {
+				var studentId = $("#student-selector").val();
+				console.log("studentId=" + studentId);
+
+				if (studentId === "") {
+					$("#student-courses-div").html("Please select a student");
+					return;
+				}
+
+				$.get("/Main/GetStudentCourses", { studentId: studentId },
+					function (data, status) {
+						$("#student-courses-div").html(data);
+					});
+			});
+
+			$("#add-grade-button").click(function () {
+				var studentId = $("#add-grade-student-selector").val();
+				console.log("studentId=" + studentId);
+				if (studentId === "") {
+					$("#add-grade-response").html("Please select a student");
+					return;
+				}
+
+				var courseId = $("#add-grade-course-selector").val();
+				if (courseId === "") {
+					$("#add-grade-response").html("Please select a course");
+					return;
+				}
+
+				$.post(
+					"/Main/AddGrade",
+					{
+						studentId: studentId,
+						courseId: courseId,
+						grade: $("#add-grade-grade-input").val()
+					},
+					function (data, status) {
+						console.log('did add grade');
+						$("#add-grade-response").html("Added grade successfully.");
+					}
+				)
+					.fail(function (jqXHR, textStatus, errorThrown) {
+						console.log('add grade failed');
+						$("#add-grade-response").html("Could not add grade: " + jqXHR.responseText);
+					});
+			})
+
+
+		});
+	</script>
+</head>
+<body>
+	@if (Model == null || Model == "")
+	{
+		<a href="/Login">I want to enter my name</a>
+	}
+	else
+	{
+		<p>Welcome, @Model!</p>
+		<a href="/Login">Logout</a>
+	}
+
+	<br />
+	<br />
+
+	<input id="all-courses-button" type="button" value="get courses" />
+	All the courses:
+	<div id="maindiv"></div>
+	<br />
+
+	<input id="all-students-button" type="button" value="get students" />
+	All the students:
+	<div id="all-students-div"></div>
+	<br />
+
+	@* <input id="course-input" type="number" placeholder="course id" />
+	<input id="get-course-participants-buttons" type="button" value="View its participants" />
+	<div id="course-participants-div"></div> *@
+	<select id="course-selector">
+		<option value="">Select a course</option>
+	</select>
+	<button id="get-course-participants-button">View participants</button>
+	<div id="course-participants-div"></div>
+	<br />
+	<br />
+
+	@* <input id="student-input" type="number" placeholder="student id" /> *@
+	<select id="student-selector">
+		<option value="">Select a student</option>
+	</select>
+	<input id="get-student-courses-buttons" type="button" value="View his/her courses" />
+	<div id="student-courses-div"></div>
+	<br />
+	<br />
+
+	@* 	<input id="add-grade-student-input" type="number" placeholder="student id" />
+	<input id="add-grade-course-input" type="number" placeholder="course id" /> *@
+	<select id="add-grade-student-selector">
+		<option value="">Select a student</option>
+	</select>
+	<select id="add-grade-course-selector">
+		<option value="">Select a course</option>
+	</select>
+	<input id="add-grade-grade-input" type="number" placeholder="grade" min="1" max="10"/>
+	<input id="add-grade-button" type="button" value="Add grade" />
+	<div id="add-grade-response"></div>
+	<br />
+	<br />
+
+
+
+</body>
+</html>

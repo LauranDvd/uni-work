@@ -1,0 +1,156 @@
+﻿@{
+	Layout = null;
+}
+
+@model string
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>FilterStudents</title>
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script>
+		function populateUpdateForm(id, name, age) {
+			$("#update-avatar-id").val(id);
+			$("#update-avatar-name").val(name);
+			$("#update-avatar-age").val(age);
+		}
+
+		$(document).ready(function () {
+			function getAllCoursesAndPopulateCombobox() {
+				$.get("/Main/GetCoursesComboboxOptions", function (data) {
+					$("#course-selector").empty();
+					$("#course-selector").append('<option value="">Select course</option>');
+					$("#course-selector").append(data);
+				});
+			}
+
+			function getMyCoursesAndPopulateCombobox() {
+				$.get("/Main/GetMyCoursesComboboxOptions", function (data) {
+					$("#add-grade-course-selector").empty();
+					$("#add-grade-course-selector").append('<option value="">Select course</option>');
+					$("#add-grade-course-selector").append(data);
+				});
+			}
+
+			function getAllStudentsAndPopulateCombobox() {
+				$.get("/Main/GetStudentsComboboxOptions", function (data) {
+					$("#student-selector").empty();
+					$("#student-selector").append('<option value="">Select student</option>');
+					$("#student-selector").append(data);
+
+					$("#add-grade-student-selector").empty();
+					$("#add-grade-student-selector").append('<option value="">Select student</option>');
+					$("#add-grade-student-selector").append(data);
+				});
+			}
+
+			getAllCoursesAndPopulateCombobox();
+			getMyCoursesAndPopulateCombobox();
+			getAllStudentsAndPopulateCombobox();
+
+			$("#all-avatars-button").click(function () {
+				let begin = $("#all-avatars-begin").val();
+				let end = $("#all-avatars-end").val();
+				$.get(`/Main/GetAvatars?begin=${begin}&end=${end}`,
+					function (data, status) {
+						$("#maindiv").html(data);
+					});
+			});
+
+			$("#add-avatar-submit").click(function () {
+				let name = $("#add-avatar-name").val();
+				let age = $("#add-avatar-age").val();
+				let link = $("#add-avatar-link").val();
+
+				$.post(
+					"/Main/AddAvatar",
+					{
+						name: name,
+						age: age,
+						link: link
+					},
+					function (data, status) {
+						console.log('did add grade');
+						$("#add-avatar-response").html("Added avatar successfully.");
+					}
+				)
+			});
+
+			$("#update-avatar-submit").click(function () {
+				let id = $("#update-avatar-id").val();
+				let name = $("#update-avatar-name").val();
+				let age = $("#update-avatar-age").val();
+
+				console.log(`will update with ${id}, ${name}, ${age}`);
+
+				$.post(
+					"/Main/UpdateAvatar",
+					{
+						id: id,
+						name: name,
+						age: age
+					},
+					function (data, status) {
+						console.log('did update');
+						$("#update-avatar-response").html("Updated avatar successfully.");
+					}
+				)
+			});
+		});
+	</script>
+</head>
+<body>
+	@if (Model == null || Model == "")
+	{
+		<a href="/Login">I want to enter my name</a>
+	}
+	else
+	{
+		<p>Welcome, @Model!</p>
+		<a href="/Login">Logout</a>
+	}
+
+	<br />
+	<br />
+
+	B=
+	<input type="number" id="all-avatars-begin" />
+	<br />
+	E=
+	<input type="number" id="all-avatars-end" />
+	<br />
+	<input id="all-avatars-button" type="button" value="get avatars" />
+	All the avatars:
+	<div id="maindiv"></div>
+	<br />
+
+	<input id="all-students-button" type="button" value="get students" />
+	All the students:
+	<div id="all-students-div"></div>
+	<br />
+
+	<section id="add-avatar-section">
+		Add an avatar!<br/>
+		<input type="text" name="add-avatar-name" id="add-avatar-name" placeholder="name"/>
+		<input type="number" name="add-avatar-age" id="add-avatar-age"/>
+		<input type="text" name="add-avatar-link" id="add-avatar-link" placeholder="image url" />
+		<input type="submit" value="add" id="add-avatar-submit" />
+	</section>
+	<br/>
+	<div id="add-avatar-response"></div>
+
+	<section id="update-avatar-section">
+		Update an avatar!<br/>
+		<input type="hidden" name="update-avatar-id" id="update-avatar-id" value="1" />
+		<input type="text" name="update-avatar-name" id="update-avatar-name" placeholder="name" />
+		<input type="number" name="update-avatar-age" id="update-avatar-age" />
+		<input type="submit" value="update" id="update-avatar-submit" />
+	</section>
+	<br/>
+	<div id="update-avatar-response"></div>
+</body>
+</html>

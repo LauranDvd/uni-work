@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\facultate\\sem4\\web\\asp_net_lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|d:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\data\\articlesappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\data\\articlesappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\articles\\_articleslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\articles\\_articleslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArticlesAppContext_a8d978aa_c332_48b4_83d8_f82a80569a23/True/SqlTable/dbo.Article.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_asp_net_lab_250da13d_9190_4534_b27f_476cc43d689f/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_asp_net_lab_250da13d_9190_4534_b27f_476cc43d689f/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_asp_net_lab_250da13d_9190_4534_b27f_476cc43d689f/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\models\\domain\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\models\\domain\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\models\\domain\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\models\\domain\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\models\\articleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\models\\articleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\data\\migrations\\20240601170412_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\data\\migrations\\20240601170412_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Migrations\\20240601175600_DateStuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\Migrations\\20240601175600_DateStuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Migrations\\20240601172239_Retrying.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\Migrations\\20240601172239_Retrying.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170757_WasntLastInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\Data\\Migrations\\20240601170757_WasntLastInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170648_FourthHopefullyLastInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\Data\\Migrations\\20240601170648_FourthHopefullyLastInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170618_ThirdInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\Data\\Migrations\\20240601170618_ThirdInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170443_RedoInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A008D710-ADB5-45A2-9F5F-132379AD8537}|asp_net_lab\\asp_net_lab.csproj|solutionrelative:asp_net_lab\\Data\\Migrations\\20240601170443_RedoInitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Controllers\\ArticlesController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "asp_net_lab\\Controllers\\ArticlesController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAnwFwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:21:58.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Articles\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\Index.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Articles\\Index.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAtwDQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T17:45:08.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ArticlesList.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\_ArticlesList.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Articles\\_ArticlesList.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\_ArticlesList.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Articles\\_ArticlesList.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAtwBMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T20:50:18.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticlesAppContext.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\ArticlesAppContext.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\ArticlesAppContext.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\ArticlesAppContext.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\ArticlesAppContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAlwAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:22:50.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Program.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Program.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Program.cs",
+              "RelativeToolTip": "asp_net_lab\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:13:54.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\Create.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Articles\\Create.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\Create.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Articles\\Create.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCMAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T17:45:17.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T23:11:09.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T17:24:44.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T23:11:53.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Article [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArticlesAppContext_a8d978aa_c332_48b4_83d8_f82a80569a23/True/SqlTable/dbo.Article.sql",
+              "ToolTip": "dbo.Article [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-05T05:21:34.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_asp_net_lab_250da13d_9190_4534_b27f_476cc43d689f/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-04T22:28:52.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Controllers\\AuthorsController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "asp_net_lab\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:27:42.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAADgvyIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T22:23:14.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "asp_net_lab\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:59:15.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_asp_net_lab_250da13d_9190_4534_b27f_476cc43d689f/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-04T22:50:10.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_asp_net_lab_250da13d_9190_4534_b27f_476cc43d689f/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-04T22:29:10.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "asp_net_lab\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAADgvz4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:24:22.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T22:31:13.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T22:27:01.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Articles\\Edit.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Articles\\Edit.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Articles\\Edit.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAvwBcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:30:17.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Article.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\Domain\\Article.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Models\\Domain\\Article.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\Domain\\Article.cs",
+              "RelativeToolTip": "asp_net_lab\\Models\\Domain\\Article.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwBAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:45:44.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\Domain\\Author.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Models\\Domain\\Author.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\Domain\\Author.cs",
+              "RelativeToolTip": "asp_net_lab\\Models\\Domain\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:58:18.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\Domain\\Category.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Models\\Domain\\Category.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\Domain\\Category.cs",
+              "RelativeToolTip": "asp_net_lab\\Models\\Domain\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:59:16.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Authors\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Authors\\Index.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Authors\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:21:14.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "asp_net_lab\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "asp_net_lab\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwDYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-04T19:12:58.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ArticleViewModel.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\ArticleViewModel.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Models\\ArticleViewModel.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\ArticleViewModel.cs",
+              "RelativeToolTip": "asp_net_lab\\Models\\ArticleViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAewAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:07:33.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Authors\\Create.cshtml",
+              "RelativeDocumentMoniker": "asp_net_lab\\Views\\Authors\\Create.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Views\\Authors\\Create.cshtml",
+              "RelativeToolTip": "asp_net_lab\\Views\\Authors\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAvwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T19:02:10.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240601175600_DateStuff.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Migrations\\20240601175600_DateStuff.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Migrations\\20240601175600_DateStuff.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Migrations\\20240601175600_DateStuff.cs",
+              "RelativeToolTip": "asp_net_lab\\Migrations\\20240601175600_DateStuff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:56:00.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "asp_net_lab\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:24:39.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:22:49.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240601172239_Retrying.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Migrations\\20240601172239_Retrying.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Migrations\\20240601172239_Retrying.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Migrations\\20240601172239_Retrying.cs",
+              "RelativeToolTip": "asp_net_lab\\Migrations\\20240601172239_Retrying.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:22:40.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240601170757_WasntLastInitialCreate.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170757_WasntLastInitialCreate.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\Migrations\\20240601170757_WasntLastInitialCreate.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170757_WasntLastInitialCreate.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\Migrations\\20240601170757_WasntLastInitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:07:58.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240601170648_FourthHopefullyLastInitialCreate.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170648_FourthHopefullyLastInitialCreate.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\Migrations\\20240601170648_FourthHopefullyLastInitialCreate.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170648_FourthHopefullyLastInitialCreate.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\Migrations\\20240601170648_FourthHopefullyLastInitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:06:48.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240601170618_ThirdInitialCreate.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170618_ThirdInitialCreate.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\Migrations\\20240601170618_ThirdInitialCreate.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170618_ThirdInitialCreate.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\Migrations\\20240601170618_ThirdInitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:06:18.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240601170443_RedoInitialCreate.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170443_RedoInitialCreate.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\Migrations\\20240601170443_RedoInitialCreate.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170443_RedoInitialCreate.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\Migrations\\20240601170443_RedoInitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:04:43.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240601170412_InitialCreate.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170412_InitialCreate.cs",
+              "RelativeDocumentMoniker": "asp_net_lab\\Data\\Migrations\\20240601170412_InitialCreate.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\asp_net_lab\\asp_net_lab\\Data\\Migrations\\20240601170412_InitialCreate.cs",
+              "RelativeToolTip": "asp_net_lab\\Data\\Migrations\\20240601170412_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:04:13.258Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

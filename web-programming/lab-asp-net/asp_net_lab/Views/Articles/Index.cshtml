@@ -1,0 +1,77 @@
+﻿@model asp_net_lab.Models.ArticleViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 align="center">News Service</h1>
+
+@if (User.IsInRole("admin"))
+{
+    <p>
+        <a asp-action="Create" align="center">Add article</a>
+    </p>
+}
+
+<div class="last-searched-something">Last searched category: <span id="lastCategory">-</span></div>
+<div class="last-searched-something">Last start date: <span id="lastStartDate">-</span></div>
+<div class="last-searched-something">Last end date: <span id="lastEndDate">-</span></div>
+
+<form id="filterForm">
+    <div>
+        <label>Select Category:</label>
+        <select id="selectedCategory" name="selectedCategory" onchange="loadArticlesBasedOnInputs()">
+            <option value="">All Categories</option>
+            @foreach (var category in Model.Categories)
+            {
+                <option value="@category.Name">@category.Name</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>Start Date:</label>
+        <input type="date" id="startDate" name="startDate" onchange="loadArticlesBasedOnInputs()" />
+    </div>
+    <div>
+        <label>End Date:</label>
+        <input type="date" id="endDate" name="endDate" onchange="loadArticlesBasedOnInputs()" />
+    </div>
+</form>
+
+<div id="articlesList">
+    @await Html.PartialAsync("_ArticlesList", Model.Articles)
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        let lastCategory = "-";
+        let lastStartDate = "-";
+        let lastEndDate = "-";
+
+        function loadArticlesBasedOnInputs() {
+            var selectedCategory = $('#selectedCategory').val();
+            var startDate = $('#startDate').val();
+            var endDate = $('#endDate').val();
+
+            $("#lastCategory").html(lastCategory);
+            $("#lastStartDate").html(lastStartDate);
+            $("#lastEndDate").html(lastEndDate);
+            lastCategory = selectedCategory;
+            lastStartDate = startDate;
+            lastEndDate = endDate;
+
+            var url = '@Url.Action("FilteredByCategory", "Articles")'
+                + '?selectedCategory=' + encodeURIComponent(selectedCategory)
+                + '&startDate=' + encodeURIComponent(startDate)
+                + '&endDate=' + encodeURIComponent(endDate);
+
+            $.get(url, function (data) {
+                $('#articlesList').html(data);
+            })
+                .fail(function () {
+                    alert('Error loading articles');
+                });
+        }
+    </script>
+}

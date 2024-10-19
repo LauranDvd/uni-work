@@ -1,0 +1,13 @@
+<appSettings>
+	<add key="parentTable" value="REGIONAL_AGENCIES"/>
+	<add key="childTable" value="LOCAL_AGENCIES;
+				IF RAND() &lt; 1
+				BEGIN
+					UPDATE LOCAL_AGENCIES
+					SET lBudget=lBudget*102/100
+				END 
+	" />
+	<add key="childFK" value="RId"/>
+	<add key="server" value="DESKTOP-PJR0RFF\SQLEXPRESS"/>
+	<add key="database" value="HospitalIntegrityAgencyDB"/>
+</appSettings>

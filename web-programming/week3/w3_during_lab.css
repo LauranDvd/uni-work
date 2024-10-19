@@ -1,0 +1,31 @@
+.smartTable {
+  text-align: center;
+  font-size: 150%;
+  /* border: 2px solid black; */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.smartTable td {
+  /* border: 2px solid black; */
+  min-width: 200px;
+  background: blueviolet;
+}
+
+header {
+  background: gold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer {
+  background: silver;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background: lightblue;
+    }
+}

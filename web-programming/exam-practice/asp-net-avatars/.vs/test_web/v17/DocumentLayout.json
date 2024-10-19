@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|d:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\models\\logtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\logtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\models\\avatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\avatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\views\\login\\invalidcredentials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\views\\login\\invalidcredentials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B49D3FC-847C-4F74-B69B-67B8C2880535}|test_web\\test_web.csproj|solutionrelative:test_web\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\Log.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\Log.cs",
+              "RelativeToolTip": "test_web\\Models\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:17:39.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Avatar.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\Avatar.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\Avatar.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\Avatar.cs",
+              "RelativeToolTip": "test_web\\Models\\Avatar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:17:01.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\User.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\User.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\User.cs",
+              "RelativeToolTip": "test_web\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:16:18.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvalidCredentials.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Views\\Login\\InvalidCredentials.cshtml",
+              "RelativeDocumentMoniker": "test_web\\Views\\Login\\InvalidCredentials.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Views\\Login\\InvalidCredentials.cshtml",
+              "RelativeToolTip": "test_web\\Views\\Login\\InvalidCredentials.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:26:16.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "test_web\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "test_web\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T19:31:29.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "test_web\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "test_web\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAASwCUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:29:52.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Views\\Main\\Index.cshtml",
+              "RelativeDocumentMoniker": "test_web\\Views\\Main\\Index.cshtml",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Views\\Main\\Index.cshtml",
+              "RelativeToolTip": "test_web\\Views\\Main\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:49:23.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "test_web\\Controllers\\MainController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Controllers\\MainController.cs",
+              "RelativeToolTip": "test_web\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAEsAAAAALemeWegEwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:48:42.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "test_web\\Data\\MyDbContext.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "test_web\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAWwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:40:55.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogText.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\LogText.cs",
+              "RelativeDocumentMoniker": "test_web\\Models\\LogText.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Models\\LogText.cs",
+              "RelativeToolTip": "test_web\\Models\\LogText.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:14:10.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Program.cs",
+              "RelativeDocumentMoniker": "test_web\\Program.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Program.cs",
+              "RelativeToolTip": "test_web\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAASwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:36:35.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\appsettings.json",
+              "RelativeDocumentMoniker": "test_web\\appsettings.json",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\appsettings.json",
+              "RelativeToolTip": "test_web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T19:36:02.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Utilities.cs",
+              "RelativeDocumentMoniker": "test_web\\Utilities.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Utilities.cs",
+              "RelativeToolTip": "test_web\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:56:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "test_web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\facultate\\sem4\\web\\exam\\asp_net_avatars\\test_web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "test_web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T06:11:28.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
