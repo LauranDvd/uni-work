@@ -1,0 +1,14 @@
+<div>
+  <h1>News service</h1>
+  <div *ngIf="!showLogin">
+    Your username: <span>{{ userFullname }}</span> <br />
+    <button (click)="doLogout()">logout</button><br />
+    <app-modernarticles [amIAdmin]="amIAdmin"></app-modernarticles>
+    <app-newarticleform *ngIf="true || amIAdmin"></app-newarticleform>
+  </div>
+  <div *ngIf="showLogin">
+    <app-loginpage (loginEvent)="handleLogin()"></app-loginpage>
+  </div>
+
+
+</div>

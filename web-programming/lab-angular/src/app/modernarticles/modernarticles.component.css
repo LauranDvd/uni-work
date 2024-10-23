@@ -1,0 +1,43 @@
+div {
+    text-align: center;
+}
+
+.one-article {
+    background: lightblue;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.article-title {
+    font-weight: bold;
+}
+
+.article-author {
+    color: gray;
+}
+
+.article-text {
+    margin: 1.5%;
+}
+
+.article-date {
+    color: gray;
+}
+
+button {
+    padding: 0.3%;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+input {
+    padding: 0.3%;
+    border-radius: 5em;
+}
+
+textarea {
+    height: 10em;
+    width: 20%;
+    border-radius: 2em;
+    padding: 0.5%;
+}

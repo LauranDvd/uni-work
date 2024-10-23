@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-size: 150%;
+    background: whitesmoke;
+}
+
+header {
+    margin-bottom: 5%;
+    font-size: 200%;
+    background: red;
+    color: gold;
+}
+
+#login-section input {
+    margin: 0.3%;
+    padding: 0.3%;
+    border: 2px solid black;
+    font-size: 80%;
+}
+
+#login-section input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+article.news-article {
+    background: white;
+    margin-bottom: 2%;
+}
+
+.news-article-title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.news-article-author {
+    font-size: 90%;
+    margin-bottom: 1%;
+}
+
+.news-article-text {
+    font-size: 90%;
+    color: gray;
+}
+
+.news-article-footer {
+    font-size: 70%;
+}
+
+#about-me {
+    font-size: 80%;
+    margin-bottom: 2%;
+}
+
+#my-name-span, #am-i-admin-span {
+    color: blue;
+    font-style: italic;
+}
+
+a {
+    color: navy;
+    font-weight: bold;
+}
+
+#article-inputs-section {
+    text-align: left;
+    margin-left: 30%;
+}
+
+#article-inputs-section > label, span {
+    vertical-align: center;
+    color: gray;
+}
+
+#article-inputs-section > input, #article-inputs-section > textarea, #article-inputs-section > button, 
+#article-inputs-section > input[type='submit']  {
+    font-size: 100%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 1em;
+}
+
+#article-inputs-section > button:hover {
+    cursor: pointer;
+}
+
+.delete-article-button, .update-article-button > input[type='submit'] {
+    padding: 0.5em;
+    font-size: 60%;
+    cursor: pointer;
+}
