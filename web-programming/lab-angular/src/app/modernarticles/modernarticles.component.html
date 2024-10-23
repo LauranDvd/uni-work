@@ -1,0 +1,29 @@
+Prev category: {{previousCategory}} //
+Prev start: {{previousStart}} //
+Prev end: {{previousEnd}} //
+
+<div class="filters">
+    <select (change)="onCategoryChange($event)">
+        <option *ngFor="let category of allCategories" [value]="category.categoryName">{{category.categoryName}}
+        </option>
+    </select>
+    <input type="date" (change)="onStartDateChange($event)">
+    <input type="date" (change)="onEndDateChange($event)">
+</div>
+
+<div class="one-article" *ngFor="let article of allArticles; let currentArticle = index;">
+    <div class="article-title">{{article.articleTitle}}</div>
+    <div class="article-author">{{article.author}}</div>
+    <div class="article-text">{{article.articleText}}</div>
+    <span class="article-date">{{article.articleDate}}</span> |
+    <span class="article-date">{{article.category}}</span> <br />
+    <button *ngIf="amIAdmin" (click)="doDelete(article.articleId)">do delete</button> <br /> <br />
+
+    <button *ngIf="showUpdate[currentArticle] && amIAdmin" (click)="toggleShowUpdate(currentArticle)">hide update form</button>
+    <button *ngIf="!showUpdate[currentArticle] && amIAdmin" (click)="toggleShowUpdate(currentArticle)">show update form</button>
+    <div *ngIf="showUpdate[currentArticle] && amIAdmin">
+        <input type="text" placeholder="new title" [(ngModel)]="newTitleInput[currentArticle]"> <br />
+        <textarea placeholder="new text" [(ngModel)]="newTextInput[currentArticle]"></textarea> <br />
+        <button (click)="doUpdate(article.articleId, currentArticle)">do update</button>
+    </div>
+</div>
