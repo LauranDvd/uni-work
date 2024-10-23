@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/asp_net_lab.props" />
-</Project>
